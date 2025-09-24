@@ -42,8 +42,6 @@
 .header-third {
     padding: 55px;
     margin-top: 140px;
-    position: relative;
-    bottom: 100px;
 }
 
 .header-third button {
@@ -132,6 +130,8 @@
 .announce-footer{
     margin-top: 120px;
 }
+
+/* @media (max-width: 768px) */
 
 /* announce */
 

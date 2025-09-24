@@ -9,7 +9,7 @@ export default function Announcement() {
     
     return (
         <>
-            <div className="container announce-wrap">
+            <div className="announce-wrap">
                 <div className='flex justify-between'>
                     <div className='flex gap-4'>
                         <img src={announce} alt="announce" className='animate-spin-fast'/>
