@@ -12,7 +12,7 @@ const News = () => {
             <div className="news-wrap bg-[#F3F7FD]">
 
                 {/* 1 */}
-                <div className='flex justify-between '>
+                <div className='flex justify-between'>
                     <div className='flex gap-4'>
                         <img src={announce} alt="announce" className='animate-spin-fast' />
                         <p className='text-[40px] font-medium'>{t("latest_news")}</p>

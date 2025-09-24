@@ -28,22 +28,6 @@
       "desc": "How do you create compelling presentations that wow your colleagues and impress your managers?",
       "title4": "News",
       "desc4": "Follow the latest news, important events, and announcements of our institute in this section. Up-to-date information for students and teachers is regularly updated."
-    },
-    {
-      "title": "Frontend news",
-      "desc": "The latest trends in JavaScript and React."
-    },
-    {
-      "title": "University events",
-      "desc": "Upcoming conferences and seminars."
-    },
-    {
-      "title": "Research papers",
-      "desc": "New research works by our professors."
-    },
-    {
-      "title": "Student life",
-      "desc": "Student activities and initiatives."
     }
   ],
   "univer": {

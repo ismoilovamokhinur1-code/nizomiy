@@ -162,6 +162,10 @@
 
 /* news */
 
+.news-1234{
+    margin-top: 50px;
+}
+
 .news-wrap {
     padding: 59px;
 }
@@ -251,6 +255,38 @@
   animation: spin-slow 3s linear infinite; 
 }
 
+@media (max-width:925px) {
+    .div-img-news p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:800px) {
+    .div-img-news p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:560px) {
+    .wrap-news-imgs{
+        display: block;
+    }
+
+    .cards-wrapper{
+        margin-top: 20px;
+    }
+
+    .ux-news p{
+        font-size: 10px;
+    }
+
+    .ux-news{
+        width: 350px;
+    }
+ 
+}
+
+
 /* news */
 
 /* informations */
@@ -308,7 +344,6 @@
     border-radius: 10px;
 }
 
-/* Rasm chapdan chiqadi */
 @keyframes slideLeft {
   from { transform: translateX(-100%); opacity: 0; }
   to   { transform: translateX(0); opacity: 1; }
@@ -323,8 +358,6 @@
         right: 10px;
     }
 }
-
-
 /* Univer */
 
 /* key */

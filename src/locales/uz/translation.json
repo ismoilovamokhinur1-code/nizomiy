@@ -27,22 +27,6 @@
     {
       "title": "UX taqdimotlarni ko‘rib chiqish",
       "desc": "Qanday qilib hamkasblaringizni hayratda qoldiradigan taqdimotlar qilishingiz mumkin?"
-    },
-    {
-      "title": "Frontend yangiliklari",
-      "desc": "JavaScript va React’dagi eng so‘nggi trendlar haqida."
-    },
-    {
-      "title": "Universitet tadbirlari",
-      "desc": "Yaqinda o‘tkaziladigan anjuman va seminarlar."
-    },
-    {
-      "title": "Ilmiy maqolalar",
-      "desc": "O‘qituvchilarimizning yangi ilmiy ishlari haqida."
-    },
-    {
-      "title": "Talabalar hayoti",
-      "desc": "Talabalarimiz faoliyati va tashabbuslari."
     }
   ],
   "univer": {
