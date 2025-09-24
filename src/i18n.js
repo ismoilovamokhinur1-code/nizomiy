@@ -11,9 +11,13 @@ i18n.use(initReactI18next).init({
     en: { translation: en },
     ru: { translation: ru },
   },
-  lng: "uz", // default language
+  // lng: "uz", 
+  lng: localStorage.getItem("lang") || "uz",
   fallbackLng: "en",
   interpolation: { escapeValue: false },
 });
 
 export default i18n;
+
+
+

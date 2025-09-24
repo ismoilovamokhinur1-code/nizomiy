@@ -3,19 +3,104 @@
   "phone": "+998 71 276 76 51",
   "about_university": "Universitet haqida",
   "education": "Ta'lim",
-  "directions": "Ta'lim yo‘nalishlari",
+  "directions": "Ta'lim yo'nalishlari",
   "links": "Havolalar",
   "apply": "Ariza topshirish",
-  "contact": "Bog‘lanish",
-  "hero_title": "Universitetning yuqori malakali ilmiy-pedagogik jamoasi talabalar uchun sifatli ta'limni ta'minlaydi.",
-  
+  "contact": "Bog'lanish",
+  "hero_title": "Universitetning yuqori malakali ilmiy va pedagogik xodimlari talabalar uchun sifatli ta'lim beradi.",
+  "announce_title": "E'lonlar",
   "announce": {
+    "btn": "Barchasini ko‘rish",
     "date": "18-avgust, 11:00",
-    "title": "Bakalavrlar uchun ochiq eshiklar kuni",
-    "place": "Inha Universiteti",
-    "desc": "Daraxtlar nafaqat Yer yuzidagi eng katta, eng qadimiy va eng murakkab tirik mavjudotlar orasida, balki ular juda sekin o‘sadi – ko‘pincha o‘zining to‘liq hajmiga yetishi uchun o‘nlab yoki yuzlab yillar kerak bo‘ladi.....",
-    "register": "Ro‘yxatdan o‘tish"
-  }
-
-
+    "title1": "Bakalavriat ochiq eshiklar kuni",
+    "title2": "eshiklar kuni",
+    "place": "Inha universiteti",
+    "desc": "Daraxtlar nafaqat yer yuzidagi eng katta, eng qadimiy va eng murakkab tirik mavjudotlardan biri, balki ular juda sekin o‘sadi — ko‘pincha o‘z to‘liq hajmiga yetishi uchun o‘nlab yoki hatto yuzlab yillar kerak bo‘ladi.....",
+    "register": "Ro'yxatdan o'tish"
+  },
+  "latest_news": "So‘nggi yangiliklar",
+  "btn1": "Barcha yangiliklar",
+  "news": [
+    {
+      "title": "UX taqdimotlarni ko‘rib chiqish",
+      "desc": "Qanday qilib hamkasblaringizni hayratda qoldiradigan taqdimotlar qilishingiz mumkin?"
+    },
+    {
+      "title": "Frontend yangiliklari",
+      "desc": "JavaScript va React’dagi eng so‘nggi trendlar haqida."
+    },
+    {
+      "title": "Universitet tadbirlari",
+      "desc": "Yaqinda o‘tkaziladigan anjuman va seminarlar."
+    },
+    {
+      "title": "Ilmiy maqolalar",
+      "desc": "O‘qituvchilarimizning yangi ilmiy ishlari haqida."
+    },
+    {
+      "title": "Talabalar hayoti",
+      "desc": "Talabalarimiz faoliyati va tashabbuslari."
+    }
+  ],
+  "univer": {
+    "about_title": "Universitet haqida",
+    "about_desc": "O‘zbekiston milliy pedagogika universiteti respublikamizning yirik ilmiy-ma’rifiy markazlaridan biri bo‘lib, boy tarix va shakllangan ijobiy an’analarga ega. Universitetning yuqori malakali ilmiy-pedagogik jamoasi talabalarga sifatli ta’lim beradi.",
+    "aim_title": "Universitet maqsadi",
+    "aim_desc": "Universitetning asosiy maqsadi – yuqori malakali, har tomonlama rivojlangan, davlat va jamiyat oldidagi mas’uliyatini his qiladigan, kelajak uchun vijdonan va halol mehnat qiladigan, milliy va umuminsoniy qadriyatlarni hurmat qiladigan, xalqaro ta’lim sohasida raqobatbardosh mutaxassislarni tayyorlashdir.",
+    "more_btn": "Batafsil"
+  },
+  "key": {
+    "title": "Universitetning asosiy ko‘rsatkichlari",
+    "total_area": "Umumiy hudud maydoni",
+    "green_zones": "Yashil hududlar umumiy maydoni",
+    "students": "Talabalar soni",
+    "teachers": "O‘qituvchilar va professorlar",
+    "staff": "Xodimlar umumiy soni",
+    "fin_aid": "Moliyaviy yordam oladigan talabalar",
+    "student_teachers": "Talaba-o‘qituvchilar",
+    "employment": "Bitirgandan keyin 1 yil ichida ishga joylashish"
+  },
+  "faculties": {
+    "title": "Fakultetlar",
+    "btn": "Barcha fakultetlar",
+    "list": "O‘zbek tili va adabiyoti fakulteti"
+  },
+  "phone_title": "Telefon raqamlari",
+  "assistant": "Rektor yordamchisi",
+  "footer_text": "Ajoyib raqamli tajribalarni yarating, ular dunyoga ko‘proq quvonch olib keladi.",
+  "product": "Mahsulot",
+  "overview": "Umumiy ma’lumot",
+  "features": "Xususiyatlar",
+  "solutions": "Yechimlar",
+  "new": "Yangi",
+  "tutorials": "Qo‘llanmalar",
+  "pricing": "Narxlar",
+  "releases": "Chiqarilishlar",
+  "company": "Kompaniya",
+  "about": "Biz haqimizda",
+  "careers": "Karyera",
+  "press": "Matbuot",
+  "news1": "Yangiliklar",
+  "media": "Media to‘plam",
+  "contact1": "Aloqa",
+  "resources": "Resurslar",
+  "blog": "Blog",
+  "newsletter": "Yangiliklar xati",
+  "events": "Tadbirlar",
+  "help": "Yordam markazi",
+  "support": "Qo‘llab-quvvatlash",
+  "social": "Ijtimoiy",
+  "twitter": "Twitter",
+  "linkedin": "LinkedIn",
+  "facebook": "Facebook",
+  "github": "GitHub",
+  "angellist": "AngelList",
+  "dribbble": "Dribbble",
+  "legal": "Huquqiy",
+  "terms": "Shartlar",
+  "privacy": "Maxfiylik",
+  "cookies": "Cookies",
+  "licenses": "Litsenziyalar",
+  "settings": "Sozlamalar",
+  "rights": "© 2077 Untitled UI. Barcha huquqlar himoyalangan."
 }

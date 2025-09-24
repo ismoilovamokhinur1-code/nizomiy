@@ -1,12 +1,14 @@
 import React from 'react';
-import tel from "../assets/calling.svg"
+import tel from "../assets/calling.svg";
+import { useTranslation } from "react-i18next";
 
 export default function Phone() {
+     const { t } = useTranslation();
   return (
     <>
       <div className="bg-[#086D7A] phone-wrap">
         <h2 className='text-[40px] text-white font-light'>
-            Телефонные номера
+            {t("phone_title")}
         </h2>
 
        <div className='phones-wrap-tel flex justify-between'>
@@ -19,7 +21,7 @@ export default function Phone() {
 
             <div>
                 <a href="tel:+998901234567" className='text-white text-[28px] phone-number'>+ 998 90 123 45 67</a>
-                <p className='text-white'>rektor yordamchisi</p>
+                <p className='text-white'>{t("assistant")}</p>
             </div>
         </div>
 
@@ -35,7 +37,7 @@ export default function Phone() {
 
             <div>
                 <a href="tel:+998901234567" className='text-white text-[28px] phone-number'>+ 998 90 123 45 67</a>
-                <p className='text-white'>rektor yordamchisi</p>
+                <p className='text-white'>{t("assistant")}</p>
             </div>
         </div>
 
@@ -51,7 +53,7 @@ export default function Phone() {
 
             <div>
                 <a href="tel:+998901234567" className='text-white text-[28px] phone-number'>+ 998 90 123 45 67</a>
-                <p className='text-white'>rektor yordamchisi</p>
+                <p className='text-white'>{t("assistant")}</p>
             </div>
         </div>
 

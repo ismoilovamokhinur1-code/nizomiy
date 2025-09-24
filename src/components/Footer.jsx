@@ -6,8 +6,10 @@ import facebook from "../assets/facebook.svg";
 import github from "../assets/github.svg";
 import hand from "../assets/hand.svg";
 import krujok from "../assets/krujok.svg";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="footer-side bg-[#0b0b1b] w-full">
       <footer>
@@ -17,7 +19,7 @@ export default function Footer() {
             <img src={img1} alt="img1" />
 
             <p className="footer-pi relative top-8 text-[18px] font-normal text-[#EAECF0]">
-              Design amazing digital experiences that create more happy in the world.
+              {t("footer_text")}
             </p>
           </div>
           {/* 1 */}
@@ -26,13 +28,13 @@ export default function Footer() {
           {/* 2 */}
           <div>
             <ul className='leading-8'>
-              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>Product</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Overview</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Features</a></li>
+              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>{t("product")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("overview")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("features")}</a></li>
 
 
               <li>
-                <a href="#" className='text-[16px] text-[#EAECF0]'>Solutions</a>
+                <a href="#" className='text-[16px] text-[#EAECF0]'>{t("solutions")}</a>
 
                 <a
                   href="#"
@@ -48,9 +50,9 @@ export default function Footer() {
 
 
 
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Tutorials</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Pricing</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Releases</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("tutorials")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("pricing")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("releases")}</a></li>
             </ul>
           </div>
           {/* 2 */}
@@ -59,13 +61,13 @@ export default function Footer() {
           {/* 3 */}
           <div>
             <ul className='leading-8'>
-              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>Company</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>About us</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Careers</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Press</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>News</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Media kit</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Contact</a></li>
+              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>{t("company")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("about")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("careers")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("press")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("news1")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("media")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("contact1")}</a></li>
             </ul>
           </div>
           {/* 3 */}
@@ -74,13 +76,13 @@ export default function Footer() {
           {/* 4 */}
           <div>
             <ul className='leading-8'>
-              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>Resources</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Blog</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Newsletter</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Events</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Help centre</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Tutorials</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Support</a></li>
+              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>{t("resources")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("blog")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("newsletter")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("events")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("help")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("tutorials")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("support")}</a></li>
             </ul>
           </div>
           {/* 4 */}
@@ -88,13 +90,13 @@ export default function Footer() {
           {/* 5 */}
           <div>
             <ul className='leading-8'>
-              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>Social</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Twitter</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>LinkedIn</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Facebook</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>GitHub</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>AngelList</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Dribbble</a></li>
+              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>{t("social")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("twitter")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("linkedin")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("facebook")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("github")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("angellist")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("dribbble")}</a></li>
             </ul>
           </div>
           {/* 5 */}
@@ -103,13 +105,13 @@ export default function Footer() {
           {/* 6 */}
           <div>
             <ul className='leading-8'>
-              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>Legal</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Terms</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Privacy</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Cookies</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Licenses</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Settings</a></li>
-              <li><a href="#" className='text-[16px] text-[#EAECF0]'>Contact</a></li>
+              <li><a href="#" className='text-[14px] text-[#D0D5DD]'>{t("legal")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("terms")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("privacy")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("cookies")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("licenses")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("settings")}</a></li>
+              <li><a href="#" className='text-[16px] text-[#EAECF0]'>{t("contact")}</a></li>
             </ul>
           </div>
           {/* 6 */}
@@ -121,7 +123,7 @@ export default function Footer() {
         <div className='flex justify-between last-section'>
           <div>
             <p className="footer-pi text-[16px] font-normal text-[#D0D5DD]">
-              © 2077 Untitled UI. All rights reserved.
+              {t("rights")}
             </p>
           </div>
 

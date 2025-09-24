@@ -8,12 +8,88 @@
   "apply": "Apply Now",
   "contact": "Contact",
   "hero_title": "Highly qualified scientific and pedagogical staff of the university provides quality education for students.",
-
+  "announce_title": "Announcements",
   "announce": {
+    "btn": "View all",
     "date": "August 18, 11:00",
-    "title": "Undergraduate Open Day",
+    "title1": "Undergraduate Open Day",
+    "title2": "Open Day",
     "place": "Inha University",
     "desc": "Trees are not only among the largest, oldest, and most complex living things on Earth, they also grow extremely slowly — often taking decades or even centuries to reach their full size.....",
     "register": "Register"
-  }
+  },
+  "latest_news": "Latest News",
+  "btn1": "All news",
+  "news": [
+    {
+      "title": "UX review presentations",
+      "desc": "How do you create compelling presentations that wow your colleagues and impress your managers?"
+    },
+    {
+      "title": "Frontend news",
+      "desc": "The latest trends in JavaScript and React."
+    },
+    {
+      "title": "University events",
+      "desc": "Upcoming conferences and seminars."
+    },
+    {
+      "title": "Research papers",
+      "desc": "New research works by our professors."
+    },
+    {
+      "title": "Student life",
+      "desc": "Student activities and initiatives."
+    }
+  ],
+  "univer": {
+    "about_title": "About the University",
+    "about_desc": "The Uzbek National Pedagogical University is one of the major scientific and educational centers of our country. It has a rich history and established positive traditions. The highly qualified academic staff of the university provides quality education to students.",
+    "aim_title": "University Goal",
+    "aim_desc": "The main goal of the University is to train highly qualified specialists who are well-rounded, responsible to the state and society, work diligently and honestly for the country’s future, respect national and universal values, and are competitive in the field of international education.",
+    "more_btn": "Read more"
+  },
+  "faculties": {
+    "title": "Faculties",
+    "btn": "All faculties",
+    "list": "Faculty of Uzbek Language and Literature"
+  },
+  "phone_title": "Phone numbers",
+  "assistant": "Assistant to the Rector",
+  "footer_text": "Design amazing digital experiences that create more happiness in the world.",
+  "product": "Product",
+  "overview": "Overview",
+  "features": "Features",
+  "solutions": "Solutions",
+  "new": "New",
+  "tutorials": "Tutorials",
+  "pricing": "Pricing",
+  "releases": "Releases",
+  "company": "Company",
+  "about": "About us",
+  "careers": "Careers",
+  "press": "Press",
+  "news1": "News",
+  "media": "Media kit",
+  "contact1": "Contact",
+  "resources": "Resources",
+  "blog": "Blog",
+  "newsletter": "Newsletter",
+  "events": "Events",
+  "help": "Help centre",
+  "support": "Support",
+  "social": "Social",
+  "twitter": "Twitter",
+  "linkedin": "LinkedIn",
+  "facebook": "Facebook",
+  "github": "GitHub",
+  "angellist": "AngelList",
+  "dribbble": "Dribbble",
+  "legal": "Legal",
+  "terms": "Terms",
+  "privacy": "Privacy",
+  "cookies": "Cookies",
+  "licenses": "Licenses",
+  "settings": "Settings",
+  "rights": "© 2077 Untitled UI. All rights reserved."
 }

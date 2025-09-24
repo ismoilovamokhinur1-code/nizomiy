@@ -1,8 +1,10 @@
 import React from 'react';
 import univer from "../assets/nizomiy.png";
 import uni from "../assets/uni.svg";
+import { useTranslation } from "react-i18next";
 
 export default function Univer() {
+    const { t } = useTranslation();
     return (
         <>
             <div>
@@ -14,13 +16,13 @@ export default function Univer() {
 
 
                     <div data-aos="fade-left" className='uni-back'>
-                        <h1 className='text-white text-[30px]'>Об университете</h1>
-                        <p className='text-white text-[14px] leading-[140%] uni-pi'>Узбекский национальный педагогический университет является одним из крупных научно-просветительских центров нашей республики, имеет свою богатую историю и сложившиеся положительные традиции. Высококвалифицированный научно-педагогический коллектив университета обеспечивает качественное образование студентам.</p>
+                        <h1 className='text-white text-[30px]'> {t("univer.about_title")}</h1>
+                        <p className='text-white text-[14px] leading-[140%] uni-pi'> {t("univer.about_desc")}</p>
 
-                        <h1 className='text-white text-[30px] univer-aim'>Цель университета</h1>
-                        <p className='text-white text-[14px] leading-[140%] uni-pi'>Основная цель Университета – подготовка высококвалифицированных специалистов, всесторонне развитых, чувствующих свою ответственность перед государством и обществом, добросовестно и честно работающих на будущее страны, уважающих национальные и общечеловеческие ценности, конкурентоспособных в сфере международного образования.</p>
+                        <h1 className='text-white text-[30px] univer-aim'>{t("univer.aim_title")}</h1>
+                        <p className='text-white text-[14px] leading-[140%] uni-pi'>{t("univer.aim_desc")}</p>
 
-                        <button className='text-[14px] w-[113px] h-[32px] text-white univer-btn'>Подробнее</button>
+                        <button className='text-[14px] w-[113px] h-[32px] text-white univer-btn'>{t("univer.more_btn")}</button>
                     </div>
                 </div>
             </div>
