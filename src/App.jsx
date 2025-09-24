@@ -3,6 +3,7 @@ import React from "react";
 import Section from "./components/Section";
 import Announce from "./pages/Announce";
 import Informations from "./pages/Informations";
+import "./i18n";
 
 function App() {
 
