@@ -44,6 +44,7 @@
     margin-top: 140px;
 }
 
+
 .header-thirdd {
     padding: 55px;
     margin-top: 140px;
@@ -81,6 +82,23 @@
 /* second header */
 
 /* announce */
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.swiper{
+    margin-top: 40px;
+}
+
+.animate-carousel {
+  animation: carousel 20s linear infinite;
+}
+
 .announce-wrap {
     padding: 50px;
 }
