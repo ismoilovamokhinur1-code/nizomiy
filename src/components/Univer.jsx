@@ -5,7 +5,7 @@ import uni from "../assets/uni.svg";
 export default function Univer() {
     return (
         <>
-            <div className="container">
+            <div>
                 <div className='uni-wrap flex'>
                     <div data-aos="fade-right">
                         <img src={univer} alt="univer" className='h-[491px] object-cover' />

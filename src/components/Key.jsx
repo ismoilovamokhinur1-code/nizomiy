@@ -8,7 +8,7 @@ export default function Key() {
 
     return (
         <>
-            <div className="container bg-[#F3F7FD] h-[757px] key-wrap">
+            <div className="bg-[#F3F7FD] h-[757px] key-wrap">
                 <div className='flex gap-4'>
                     <img src={announce} alt="announce" className='animate-spin-fast' />
                     <p className='text-[40px] font-medium'>Ключевые показатели Университета</p>

@@ -5,8 +5,23 @@ import location from "../assets/location.svg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../components/Footer';
+import { useTranslation } from "react-i18next";
 
 export default function Announce() {
+
+
+    // language
+    const { t } = useTranslation();
+
+    // useEffect(() => {
+    //     AOS.init({ duration: 1000 });
+    // }, []);
+
+    // const cards = Array(7).fill(0);
+
+
+    //   language
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
@@ -23,7 +38,7 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#086D7A] card-first'>
-                                <p>18 август, 11:00</p>
+                                <p>{t("announce.date")}</p>
                                 <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
                             </div>
 
@@ -187,7 +202,7 @@ export default function Announce() {
                 </div>
 
                 <div className='announce-footer'>
-                <Footer/>
+                    <Footer />
                 </div>
 
             </div>

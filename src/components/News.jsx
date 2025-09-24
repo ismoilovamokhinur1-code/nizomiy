@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const News = () => {
     return (
         <>
-            <div className="container news-wrap bg-[#F3F7FD]">
+            <div className="news-wrap bg-[#F3F7FD]">
 
                 {/* 1 */}
                 <div className='flex justify-between '>

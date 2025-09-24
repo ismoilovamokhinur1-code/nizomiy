@@ -8,7 +8,7 @@
 
 .container {
     max-width: 1440px;
-    padding: 0 20px;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -19,8 +19,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1440px;
-    height: 835px;
+    width: max-content;
+    position: relative;
+    right: 36px;
 }
 
 .first-header {
@@ -39,8 +40,9 @@
 }
 
 .header-third {
-    padding: 15px;
-    margin-top: 200px;
+    padding: 55px;
+    margin-top: 140px;
+    padding-top: 260px;
 }
 
 .header-third button {
@@ -397,6 +399,34 @@
 .phones-wrap-tel{
     margin-top: 30px;
 }
+
+
+@media (max-width:1070px) {
+    .phone-number{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:840px) {
+    .phone-number{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:750px) {
+    .phones-wrap-tel{
+        display: block;
+    }
+
+    .phone-wrap h2{
+        font-size: 30px;
+        margin-bottom: -20px;
+    }
+
+    .text-2{
+        margin-top: 10px;
+    }
+}
 /* Phone */
 
 /* section */
@@ -426,7 +456,6 @@
 
 .footer-side {
     padding: 40px;
-
 }
 
 .last-section {

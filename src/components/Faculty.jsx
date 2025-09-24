@@ -5,7 +5,7 @@ import iconfac from "../assets/iconfac.svg";
 export default function Faculty() {
     return (
         <>
-            <div className="container faculty-wrap">
+            <div className="faculty-wrap">
                 {/* 1 */}
                 <div className='flex justify-between'>
                     <div className='flex gap-4'>

@@ -10,7 +10,6 @@ import btns from "../assets/btns.png";
 import uzb from "../assets/uzb.svg";
 import rus from "../assets/russian.jpg";
 import eng from "../assets/english.jpg";
-// import { HiChevronDown } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 
 const languages = [
@@ -18,8 +17,6 @@ const languages = [
     { code: "ru", name: "Рус", flag: rus },
     { code: "en", name: "Eng", flag: eng },
 ];
-
-
 
 export default function Header() {
     const { t, i18n } = useTranslation();
@@ -35,49 +32,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="container header-wrap">
-
-                {/* header side */}
-                <div className='first-header flex justify-between'>
-
-                    {/* 1 */}
-
-                    <div className='flex gap-7'>
-                        <div className='flex gap-4'>
-                            <img src={gmail} alt="pochta" className="w-[20px] h-[20px]" />
-                            <a href="mailto:info@uznpu.uz" className='text-white relative bottom-[2px]'>{t("email")}</a>
-                        </div>
-
-                        <div className='flex gap-4'>
-                            <img src={phone} alt="phone" className="w-[20px] h-[20px]" />
-                            <a href="tel:+998712767651" className='text-white relative bottom-[2px]'>+998 71 276 76 51</a>
-
-                        </div>
-                    </div>
-
-                    {/* 1 */}
-
-                    {/* 2 */}
-                    <div className='flex'>
-                        <div className="flex gap-4">
-                            <img src={zvuk} alt="zvuk" className="w-[24px] h-[24px]" />
-                            <img src={glaz} alt="glaz" className="w-[24px] h-[24px]" />
-                        </div>
-
-
-                        {/* language */}
-
-
-                        {/* language */}
-                    </div>
-                    {/* 2 */}
-
-
-                </div>
-                {/* header side */}
-
-
-
+            <div className="header-wrap">
 
                 <div className="fixed top-0 left-0 w-full z-50 bg-[#086D7A]">
                     {/* header side */}
@@ -158,10 +113,10 @@ export default function Header() {
                         {/* 2 */}
                         <div>
                             <ul className="flex text-white gap-8">
-                                <li className="flex"><a href="#">Об Университете</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
-                                <li className="flex"><a href="#">Образование</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
-                                <li className="flex"><a href="#">Образовательные направление</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
-                                <li className="flex"><a href="#">Ссылки</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
+                                <li className="flex"><a href="#">{t("about_university")}</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
+                                <li className="flex"><a href="#">{t("education")}</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
+                                <li className="flex"><a href="#">{t("directions")}</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
+                                <li className="flex"><a href="#">{t("links")}</a><HiChevronDown className="relative top-[1px] w-[24px] h-[24px]" /></li>
                             </ul>
                         </div>
 
@@ -169,30 +124,22 @@ export default function Header() {
 
                         {/* 3 */}
                         <div>
-                            <button className="w-[164px] h-[48px] bg-[#086D7A] text-white rounded-xl">Подать заявку</button>
+                            <button className="w-[164px] h-[48px] bg-[#086D7A] text-white rounded-xl">{t("apply")}</button>
                         </div>
                         {/* 3 */}
                     </div>
                     <div className="palochka-header"></div>
                     {/* header 2 */}
                 </div>
-
-
-
-
-
-
                 {/* header 3 */}
-
                 <div className="header-third">
-                    <h1 className="text-white text-[36px] w-[48%]">Высококвалифицированный научно-педагогический коллектив университета обеспечивает качественное образование студентам.</h1>
-                    <button className="w-[200px] h-[56px] border-white border-1 rounded-[4px] text-white">Связаться</button>
+                    <h1 className="text-white text-[36px] w-[48%]">{t("hero_title")}</h1>
+                    <button className="w-[200px] h-[56px] border-white border-1 rounded-[4px] text-white">{t("contact")}</button>
 
                     <div className="img-header-third">
                         <img src={btns} alt="img" />
                     </div>
                 </div>
-
                 {/* header 3 */}
             </div>
         </>

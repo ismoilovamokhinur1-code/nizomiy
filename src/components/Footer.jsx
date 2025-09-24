@@ -9,9 +9,8 @@ import krujok from "../assets/krujok.svg";
 
 export default function Footer() {
   return (
-    <div className="container footer-side bg-[#0b0b1b]">
+    <div className="footer-side bg-[#0b0b1b] w-full">
       <footer>
-
         <div className='flex justify-between footer-wrapper'>
           {/* 1 */}
           <div className='w-[26%]'>

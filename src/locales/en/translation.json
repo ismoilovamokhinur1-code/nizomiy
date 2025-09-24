@@ -7,5 +7,13 @@
   "links": "Links",
   "apply": "Apply Now",
   "contact": "Contact",
-  "hero_title": "Highly qualified scientific and pedagogical staff of the university provides quality education for students."
+  "hero_title": "Highly qualified scientific and pedagogical staff of the university provides quality education for students.",
+
+  "announce": {
+    "date": "August 18, 11:00",
+    "title": "Undergraduate Open Day",
+    "place": "Inha University",
+    "desc": "Trees are not only among the largest, oldest, and most complex living things on Earth, they also grow extremely slowly — often taking decades or even centuries to reach their full size.....",
+    "register": "Register"
+  }
 }

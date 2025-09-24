@@ -7,5 +7,15 @@
   "links": "Havolalar",
   "apply": "Ariza topshirish",
   "contact": "Bog‘lanish",
-  "hero_title": "Universitetning yuqori malakali ilmiy-pedagogik jamoasi talabalar uchun sifatli ta'limni ta'minlaydi."
+  "hero_title": "Universitetning yuqori malakali ilmiy-pedagogik jamoasi talabalar uchun sifatli ta'limni ta'minlaydi.",
+  
+  "announce": {
+    "date": "18-avgust, 11:00",
+    "title": "Bakalavrlar uchun ochiq eshiklar kuni",
+    "place": "Inha Universiteti",
+    "desc": "Daraxtlar nafaqat Yer yuzidagi eng katta, eng qadimiy va eng murakkab tirik mavjudotlar orasida, balki ular juda sekin o‘sadi – ko‘pincha o‘zining to‘liq hajmiga yetishi uchun o‘nlab yoki yuzlab yillar kerak bo‘ladi.....",
+    "register": "Ro‘yxatdan o‘tish"
+  }
+
+
 }
