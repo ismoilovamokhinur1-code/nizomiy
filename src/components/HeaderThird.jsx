@@ -138,7 +138,7 @@ export default function HeaderThird() {
                 {/* header 3 */}
 
                 <div className="flex header-side-3">
-                    <div className="header-third">
+                    <div className="header-thirdd">
                         <h1 className="text-white text-[55px] font-medium">{t("title5")}</h1>
                         <p className="text-white">
                            {t("desc5")}</p>

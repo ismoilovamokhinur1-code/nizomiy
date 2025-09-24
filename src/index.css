@@ -44,6 +44,13 @@
     margin-top: 140px;
 }
 
+.header-thirdd {
+    padding: 55px;
+    margin-top: 140px;
+    position: relative;
+    bottom: 100px;
+}
+
 .header-third button {
     margin-top: 25px;
 
