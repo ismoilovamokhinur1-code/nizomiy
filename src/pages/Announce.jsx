@@ -10,17 +10,7 @@ import { useTranslation } from "react-i18next";
 export default function Announce() {
 
 
-    // language
     const { t } = useTranslation();
-
-    // useEffect(() => {
-    //     AOS.init({ duration: 1000 });
-    // }, []);
-
-    // const cards = Array(7).fill(0);
-
-
-    //   language
 
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -39,17 +29,17 @@ export default function Announce() {
 
                             <div className='bg-[#086D7A] card-first'>
                                 <p>{t("announce.date")}</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -62,18 +52,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#195A91] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -85,18 +75,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#195A91] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -109,18 +99,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#086D7A] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -132,18 +122,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#086D7A] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -156,18 +146,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#195A91] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 
@@ -179,18 +169,18 @@ export default function Announce() {
                         <div className='w-[320px] h-[354px]'>
 
                             <div className='bg-[#195A91] card-first'>
-                                <p>18 август, 11:00</p>
-                                <h1 className='text-[20px] font-medium'>Undergraduate <br /> Open Day</h1>
+                                <p>{t("announce.date")}</p>
+                                <h1 className='text-[20px] font-medium'>{t("announce.title1")} <br /> {t("announce.title2")}</h1>
                             </div>
 
                             <div>
                                 <div className='bg-[#F3F7FD] card-second'>
                                     <div className='flex gap-2'>
                                         <img src={location} alt="img" className='w-[20px] h-[20px]' />
-                                        <h1>Inha University</h1>
+                                        <h1>{t("announce.place")}</h1>
                                     </div>
-                                    <p className='text-[#121212]'>Trees are not only among the largest, oldest and most complex living things on earth, they also grow extremely slowly - often taking decades or even centuries to reach their full size.....</p>
-                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                    <p className='text-[#121212]'>{t("announce.desc")}</p>
+                                    <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                                 </div>
                             </div>
 

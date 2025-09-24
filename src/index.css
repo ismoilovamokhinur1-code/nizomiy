@@ -42,11 +42,13 @@
 .header-third {
     padding: 55px;
     margin-top: 140px;
-    padding-top: 260px;
+    position: relative;
+    bottom: 100px;
 }
 
 .header-third button {
     margin-top: 25px;
+
 }
 
 .img-header-third {

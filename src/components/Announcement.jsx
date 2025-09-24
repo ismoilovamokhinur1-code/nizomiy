@@ -40,7 +40,7 @@ export default function Announcement() {
                                 <h1>{t("announce.place")}</h1>
                                 </div>
                                 <p className='text-[#121212]'>{t("announce.desc")}</p>
-                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                             </div>
                         </div>
 
@@ -64,7 +64,7 @@ export default function Announcement() {
                                 <h1>{t("announce.place")}</h1>
                                 </div>
                                 <p className='text-[#121212]'>{t("announce.desc")}</p>
-                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                             </div>
                         </div>
 
@@ -87,7 +87,7 @@ export default function Announcement() {
                                 <h1>{t("announce.place")}</h1>
                                 </div>
                                 <p className='text-[#121212]'>{t("announce.desc")}</p>
-                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                             </div>
                         </div>
 
@@ -111,7 +111,7 @@ export default function Announcement() {
                                 <h1>{t("announce.place")}</h1>
                                 </div>
                                 <p className='text-[#121212]'>{t("announce.desc")}</p>
-                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>Записаться</button>
+                                <button className='text-[14px] w-[113px] h-[32px] text-[#195A91]'>{t("announce.register")}</button>
                             </div>
                         </div>
 

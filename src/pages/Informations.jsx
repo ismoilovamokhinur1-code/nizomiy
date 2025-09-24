@@ -1,10 +1,12 @@
 import React from 'react'
 import HeaderThird from '../components/HeaderThird';
 import Footer from '../components/Footer';
-import girl from "../assets/devochka.png";
+import girl from "../assets/girl.png";
 import { GoArrowUpRight } from "react-icons/go";
+import { useTranslation } from "react-i18next";
 
 const Informations = () => {
+    const { t } = useTranslation();
     return (
         <>
             <div className="container">
@@ -26,15 +28,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                              {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -53,15 +54,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                                {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -80,15 +80,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -108,15 +107,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -135,15 +133,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -162,15 +159,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -189,15 +185,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                                {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -216,15 +211,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -243,15 +237,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -270,15 +263,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                                {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -297,15 +289,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -324,15 +315,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -351,15 +341,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -378,15 +367,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                              {t("news.0.desc")} </p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -405,15 +393,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                  {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}
@@ -432,15 +419,14 @@ const Informations = () => {
                         <div className='inside-info'>
                             <div className='flex justify-between'>
                                 <h1 className='text-[20px] font-normal'>
-                                    UX review presentations
+                                   {t("news.0.title")}
                                 </h1>
 
                                 <GoArrowUpRight className='w-[24px] h-[28px]' />
                             </div>
 
                             <p className='text-[#475467] text-[16px]'>
-                                How do you create compelling presentations that wow your colleagues and impress your managers?
-                            </p>
+                               {t("news.0.desc")}</p>
                         </div>
                     </div>
                       {/* 1 */}

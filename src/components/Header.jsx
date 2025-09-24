@@ -131,6 +131,7 @@ export default function Header() {
                     <div className="palochka-header"></div>
                     {/* header 2 */}
                 </div>
+                
                 {/* header 3 */}
                 <div className="header-third">
                     <h1 className="text-white text-[36px] w-[48%]">{t("hero_title")}</h1>

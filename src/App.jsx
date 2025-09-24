@@ -5,6 +5,7 @@ import Announce from "./pages/Announce";
 import Informations from "./pages/Informations";
 import "./i18n";
 
+
 function App() {
 
   return (

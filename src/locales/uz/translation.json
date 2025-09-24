@@ -16,7 +16,10 @@
     "title2": "eshiklar kuni",
     "place": "Inha universiteti",
     "desc": "Daraxtlar nafaqat yer yuzidagi eng katta, eng qadimiy va eng murakkab tirik mavjudotlardan biri, balki ular juda sekin o‘sadi — ko‘pincha o‘z to‘liq hajmiga yetishi uchun o‘nlab yoki hatto yuzlab yillar kerak bo‘ladi.....",
-    "register": "Ro'yxatdan o'tish"
+    "register": "Ro'yxatdan o'tish",
+    "title3": "E’lonlar",
+    "desc3": "E’lonlar bo‘limida institutimizdagi yig‘ilishlar, imtihonlar, tanlovlar va boshqa muhim tadbirlar haqida ma’lumot beriladi. Talabalar va o‘qituvchilar uchun zarur yangiliklar muntazam yangilanib boriladi."
+  
   },
   "latest_news": "So‘nggi yangiliklar",
   "btn1": "Barcha yangiliklar",
@@ -102,5 +105,8 @@
   "cookies": "Cookies",
   "licenses": "Litsenziyalar",
   "settings": "Sozlamalar",
-  "rights": "© 2077 Untitled UI. Barcha huquqlar himoyalangan."
+  "rights": "© 2077 Untitled UI. Barcha huquqlar himoyalangan.",
+   "title5": "Yangiliklar",
+    "desc5": "Ushbu bo‘limda institutimizning so‘nggi yangiliklari, muhim voqealari va e’lonlarini kuzatib boring. Talabalar va o‘qituvchilar uchun dolzarb ma’lumotlar muntazam ravishda yangilanadi."
+  
 }
