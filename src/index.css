@@ -275,6 +275,7 @@
     padding: 59px;
 }
 
+
 .img-news img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -672,6 +673,7 @@
 
 .faculty-wrap {
     margin-top: 80px;
+    padding: 20px;
 }
 
 .fac-cards {
