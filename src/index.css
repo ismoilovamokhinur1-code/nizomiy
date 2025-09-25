@@ -19,9 +19,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: max-content;
-    position: relative;
-    right: 36px;
+    /* width: max-content; */
+ 
 }
 
 .first-header {

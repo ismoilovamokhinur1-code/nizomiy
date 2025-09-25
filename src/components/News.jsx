@@ -155,10 +155,6 @@ const News = () => {
 
                         </div>
                     </div>
-
-
-
-
                 </div>
                 {/* 2 */}
             </div>
