@@ -37,6 +37,18 @@
     "aim_desc": "The main goal of the University is to train highly qualified specialists who are well-rounded, responsible to the state and society, work diligently and honestly for the country’s future, respect national and universal values, and are competitive in the field of international education.",
     "more_btn": "Read more"
   },
+  "key": {
+  "title": "Key University Indicators",
+  "total_area": "Total Campus Area",
+  "green_zones": "Total Green Zones",
+  "students": "Number of Students",
+  "teachers": "Teachers and Professors",
+  "staff": "Total Staff Members",
+  "fin_aid": "Students Receiving Financial Aid",
+  "student_teachers": "Student-Teacher Ratio",
+  "employment": "Employment Within One Year of Graduation"
+}
+,
   "faculties": {
     "title": "Faculties",
     "btn": "All faculties",
