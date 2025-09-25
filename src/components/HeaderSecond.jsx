@@ -35,9 +35,9 @@ export default function HeaderSecond() {
 
     return (
         <>
-            <div className="container headersecond-wrap">
+            <div className="headersecond-wrap">
 
-                <div className="fixed top-0 w-[1440px] z-50 bg-[#086D7A]">
+                <div className="fixed top-0 w-full z-50 bg-[#086D7A]">
                     {/* header side */}
                     <div className='first-header flex justify-between'>
 

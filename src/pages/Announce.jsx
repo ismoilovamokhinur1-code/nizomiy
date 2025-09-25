@@ -18,7 +18,7 @@ export default function Announce() {
 
     return (
         <>
-            <div className="container">
+            <div>
                 <HeaderSecond />
 
                 <div data-aos="fade-up">

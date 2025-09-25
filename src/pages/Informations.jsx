@@ -9,7 +9,7 @@ const Informations = () => {
     const { t } = useTranslation();
     return (
         <>
-            <div className="container">
+            <div>
                 <HeaderThird />
 
                 <div className='info-girl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10'>

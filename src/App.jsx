@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <Routes>
           <Route path="/" element={<Section />} />
           <Route path="/announce" element={<Announce/>} />
