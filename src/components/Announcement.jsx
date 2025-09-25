@@ -14,18 +14,19 @@ export default function Announcement() {
     return (
         <div className="announce-wrap">
             {/* header */}
-            <div className='flex justify-between items-center mb-6'>
+            <div className='flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 md:gap-0'>
                 <div className='flex gap-4 items-center'>
-                    <img src={announce} alt="announce" className='animate-spin-fast' />
-                    <p className='text-[40px] font-medium'>{t("announce_title")}</p>
+                    <img src={announce} alt="announce" className='animate-spin-fast w-[40px] h-[40px] md:w-[50px] md:h-[50px]' />
+                    <p className='text-2xl md:text-[40px] font-medium'>{t("announce_title")}</p>
                 </div>
 
                 <Link to="/announce">
-                    <button className='w-[171px] h-[53px] text-white announce-btn'>
+                    <button className='w-full md:w-[171px] h-[45px] md:h-[53px] text-white announce-btn'>
                         {t("announce.btn")}
                     </button>
                 </Link>
             </div>
+
 
             {/* swiper */}
             <div className='swiper'>
