@@ -176,6 +176,7 @@ export default function Announce() {
         <div className='announce-footer'>
           <Footer />
         </div>
+
       </div>
     </>
   )

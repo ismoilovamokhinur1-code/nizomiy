@@ -9,13 +9,12 @@ export default function Univer() {
         <>
             <div>
                 <div className='uni-wrap flex'>
-                    <div data-aos="fade-right">
+                    <div>
                         <img src={univer} alt="univer" className='h-[491px] object-cover' />
-
                     </div>
 
 
-                    <div data-aos="fade-left" className='uni-back'>
+                    <div className='uni-back'>
                         <h1 className='text-white text-[30px]'> {t("univer.about_title")}</h1>
                         <p className='text-white text-[14px] leading-[140%] uni-pi'> {t("univer.about_desc")}</p>
 

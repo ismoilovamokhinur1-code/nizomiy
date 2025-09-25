@@ -135,7 +135,7 @@ export default function Header() {
                 {/* header 3 */}
                 <div className="header-third">
                     <h1 className="text-white text-[36px] w-[48%]">{t("hero_title")}</h1>
-                    <button className="w-[200px] h-[56px] border-white border-1 rounded-[4px] text-white">{t("contact")}</button>
+                    <button className="w-[200px] h-[56px] text-white header-button">{t("contact")}</button>
 
                     <div className="img-header-third">
                         <img src={btns} alt="img" />

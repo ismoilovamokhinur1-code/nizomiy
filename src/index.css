@@ -20,6 +20,11 @@
     width: 100%;
 }
 
+.header-button {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
 @media (max-width: 1024px) {
 
     .first-header,
@@ -129,7 +134,7 @@
     background-position: center;
 }
 
-.header-third h1{
+.header-third h1 {
     margin-top: 100px;
 }
 
