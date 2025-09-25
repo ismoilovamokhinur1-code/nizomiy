@@ -23,7 +23,7 @@ export default function Faculty() {
                 {/* 1 */}
 
 
-                <div className='grid grid-cols-4 gap-4 wrap-cards-fac'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 wrap-cards-fac'>
 
                     {/* 1 */}
 
